@@ -24,7 +24,7 @@ sections.forEach(section => observer.observe(section));
     emailjs.init("ohcCJVqVd5bS6-QEL"); // 🔴 replace this
 })();
 
-document.getElementById("contact-form").addEventListener("submit", function (e) {
+document.getElementById("contact").addEventListener("submit", function (e) {
     e.preventDefault();
 
     emailjs
@@ -43,4 +43,5 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
             }
         );
 });
+
 
