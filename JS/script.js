@@ -21,7 +21,7 @@ sections.forEach(section => observer.observe(section));
 // EmailJS integration for contact form
 
 (function () {
-    emailjs.init("service_h8cer88"); // 🔴 replace this
+    emailjs.init("ohcCJVqVd5bS6-QEL"); // 🔴 replace this
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function (e) {
@@ -43,3 +43,4 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
             }
         );
 });
+
